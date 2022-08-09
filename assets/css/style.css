@@ -17,8 +17,11 @@
     --text-color: #fff;
     --secound-color: #c6c9d8bf;
     --main-color: #ef98a7;
-    --big-font: 5.3rem;
-    --h2-font: 4.2rem;
+    --big-font: 5.653rem;
+    --h2-font: 3.998rem;
+    --h3-font: 2.827rem;
+    --h4-font: 1.999rem;
+    --h5-font: 1.414rem;
     --p-font: 1.1rem;
 }
 
@@ -214,7 +217,7 @@ section{
 }
 .row h3{
     color: var(--text-color);
-    font-size: 22px;
+    font-size: var(--h3-font);
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -262,7 +265,7 @@ section{
 
 .box h5{
     color: var(--text-color);
-    font-size: 18px;
+    font-size: var(--h5-font);
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -290,6 +293,10 @@ section{
 .contact-form h2{
     font-size: var(--h2-font);
     margin-bottom: 15px;
+}
+    .contact-form h5{
+        font-size: var(--h5-font);
+        margin-bottom: 15px;
 }
 .contact-form p{
     color: var(--text-color);
