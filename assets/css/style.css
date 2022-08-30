@@ -283,13 +283,6 @@ section{
     align-items: center;
     grid-gap: 3rem;
 }
-
-.contact img{
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-}
 .contact-form h2{
     font-size: var(--h2-font);
     margin-bottom: 15px;
