@@ -198,7 +198,7 @@ section{
 }
 .service-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(345px, auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.5rem;
@@ -209,6 +209,7 @@ section{
     border-radius: 10px;
     cursor: pointer;
     transition: all .35s;
+    min-height: 282px;
 }
 .row i{
     color: var(--main-color);
@@ -241,7 +242,7 @@ section{
 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(345px, auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.5rem;
@@ -249,8 +250,8 @@ section{
 }
 
 .box img{
-    max-width: 100%;
-    width: 500px;
+    width: 100%;
+    aspect-ratio: 16/9;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
